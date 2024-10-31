@@ -65,6 +65,7 @@
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     margin: 10px;
+    height: 20vh;
   }
 
   .sidebar {
@@ -83,7 +84,7 @@
   .topHeader {
     display: flex;
     margin: 20px;
-    height: 30%;
+    height: 20%;
   }
 
 
@@ -117,4 +118,41 @@
     justify-content: flex-end;
     margin-right: 50px;
     align-items: center;
+  }
+
+  .bottomHeader {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 80%;
+  }
+
+  .prompt {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .username {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .profileHeader {
+    grid-row: 1 / 3;
+    width: auto;
+    max-height: 100%;
+  }
+
+  .newButton {
+    grid-row: 1 / 3;
+  }
+
+
+
+  .uploadButton {
+    grid-row: 1 / 3;
+  }
+
+  .shareButton {
+    grid-row: 1 / 3;
   }
