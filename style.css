@@ -165,6 +165,8 @@
     border-radius: 30px;
     height: 35%;
     width: 80%;
+    font-weight: bold;
+    border-color: rgb(189, 186, 186);
   }
 
   .newButton {
