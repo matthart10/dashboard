@@ -131,21 +131,28 @@
 
   .bottomHeader {
     display: grid;
-    grid-template-columns: .5fr 3fr 1fr 1fr 1fr;
+    grid-template-columns: .5fr 4fr .75fr .75fr .75fr;
     grid-template-rows: .5fr 1fr;
     height: 100%;
     margin-left: 3%;
+    margin-right: 2%;
   }
 
   .prompt {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     align-self: end;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 1.2em;
   }
 
   .username {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    margin-left: 2%;
+    font-size: 2.2em;
+    font-weight: bold;
   }
 
   .profileHeader {
@@ -157,7 +164,7 @@
   .bottomHeader button {
     border-radius: 30px;
     height: 35%;
-    width: 75%;
+    width: 80%;
   }
 
   .newButton {
