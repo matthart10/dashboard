@@ -184,9 +184,23 @@
     place-self: center;
   }
 
-  .sidebar {
+  .websiteTitle {
+    display: flex;
+    align-items: center;
+    height: 8%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+  }
+
+  .websiteTitle img {
+    max-height: 100%;
+    width: auto;
+  }
+
+  .sidebar .tabs {
     display: grid;
-    grid-template-rows: 10% repeat(8, 5%);
+    grid-template-rows: repeat(9, 10%);
     grid-template-columns: .25fr 1fr;
     margin-left: 3%;
     column-gap: 2%;
@@ -194,11 +208,7 @@
 
   }
 
-  .sidebar img {
+  .sidebar .tabs img {
     max-height: 100%;
     width: auto;
-  }
-
-  .websiteTitle {
-    margin-bottom: 10%;
   }
