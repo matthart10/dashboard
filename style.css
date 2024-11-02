@@ -81,6 +81,9 @@
     border-radius: 10px;
     grid-column: 2 / 3;
     margin: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
 
   .topHeader {
@@ -220,4 +223,22 @@
 
   .settings {
     grid-row: 9 / 10;
+  }
+
+  .bodyTabContainer {
+    grid-row: 1 / 3;
+  }
+
+  .bodyTabs {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bodyEventContainer {
+    background-color: red;
+  }
+
+  .bodyTasksContainer {
+    background-color: green;
   }
