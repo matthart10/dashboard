@@ -250,6 +250,9 @@
     margin-right: 30px;
     margin-bottom: 40px;
     padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr .075fr;
+    grid-template-rows: .25fr 1fr .075fr;
   }
 
   .bodyCalender {
@@ -282,6 +285,13 @@
   .tabDesc {
     font-size: 1.2em;
     color: rgb(105, 103, 103);
+    grid-row: 2 / 3;
   }
 
-  
+  .tabIcon {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    max-height: 100%;
+    width: auto;
+  }
+
