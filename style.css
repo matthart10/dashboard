@@ -77,6 +77,8 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 2fr 1fr;
+    padding: 30px;
+    height: 80vh;
   }
 
   .topHeader {
@@ -227,7 +229,6 @@
   .bodyHeading {
     font-weight: bold;
     font-size: 1.5em;
-    margin-bottom: 8px;
   }
 
   .bodyTabContainer {
@@ -242,7 +243,6 @@
   .bodyTabContainer > div {
     background-color: rgba(255, 255, 255, 0.548);
     border-radius: 20px;
-    margin-right: 30px;
     padding: 5%;
     display: grid;
     grid-template-columns: 1fr .075fr;
