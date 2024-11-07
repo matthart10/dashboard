@@ -18,7 +18,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    max-height: 100vh;
+    height: 100vh;
     font-family: Helvetica, sans-serif;
     letter-spacing: -0.75px;
   }
@@ -54,7 +54,7 @@
     display: grid;
     grid-template-rows: 1fr 5fr;
     grid-template-columns: 1fr 6fr;
-    height: 100vh;
+    max-height: 100%;
     width: 100%;
     background-color: lightblue;
   }
@@ -289,6 +289,8 @@
 
   .bodyEventContainer > div {
     border-bottom: 1px solid grey;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
   }
 
   .bodyEventContainer > div:last-child {
