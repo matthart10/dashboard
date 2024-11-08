@@ -300,13 +300,30 @@
 
   .bodyTasks {
     display: grid;
-    grid-template-rows: .1fr 1fr;
+    grid-template-rows: .15fr 1fr;
   }
 
   .bodyTasksContainer {
     max-height: 100%;
     background-color: rgba(255, 255, 255, 0.548);
     border-radius: 20px;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .bodyTasksContainer img {
+    max-height: 100%;
+    width: auto;
+    place-self: center;
+  }
+
+  .taskDesc {
+    font-size: 1.2em;
+    font-weight: bold;
+    align-self: center;
   }
 
 
