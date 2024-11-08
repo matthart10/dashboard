@@ -79,6 +79,8 @@
     grid-template-columns: 2fr 1fr;
     padding: 30px;
     height: 80vh;
+    column-gap: 30px;
+    row-gap: 10px;
   }
 
   .topHeader {
@@ -223,7 +225,7 @@
   .bodyTabs {
     grid-row: 1 / 3;
     display: grid;
-    grid-template-rows: .05fr 1fr;
+    grid-template-rows: 40px 1fr;
   }
 
   .bodyHeading {
@@ -269,7 +271,7 @@
 
   .bodyCalender {
     display: grid;
-    grid-template-rows: .1fr 1fr;
+    grid-template-rows: 40px 1fr;
   }
 
   .bodyEventContainer {
@@ -300,7 +302,7 @@
 
   .bodyTasks {
     display: grid;
-    grid-template-rows: .15fr 1fr;
+    grid-template-rows: .1fr 1fr;
   }
 
   .bodyTasksContainer {
