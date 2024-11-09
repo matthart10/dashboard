@@ -198,7 +198,7 @@
     align-items: center;
     height: 8%;
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-bottom: 15%;
     font-size: 2.2em;
   }
@@ -206,6 +206,7 @@
   .websiteTitle img {
     max-height: 100%;
     width: auto;
+    margin-right: 7%;
   }
 
   .sidebar .tabs {
