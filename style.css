@@ -254,8 +254,8 @@
     border-radius: 20px;
     padding: 5%;
     display: grid;
-    grid-template-columns: 1fr .075fr .075fr .075fr;
-    grid-template-rows: .25fr 1fr .075fr;
+    grid-template-columns: 1fr 30px 30px 30px;
+    grid-template-rows: .25fr 1fr 30px;
     column-gap: 30px;
   }
 
@@ -335,7 +335,7 @@
     border-radius: 20px;
     padding: 5%;
     display: grid;
-    grid-template-columns: .1fr 1fr;
+    grid-template-columns: 40px 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 10px;
   }
