@@ -103,7 +103,7 @@
 
   .name {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.4rem;
     margin-left: 10px;
   }
 
@@ -147,14 +147,14 @@
     align-self: end;
     margin-left: 2%;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.3rem;
   }
 
   .username {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     margin-left: 2%;
-    font-size: 2.2em;
+    font-size: 1.8rem;
     font-weight: bold;
   }
 
@@ -200,7 +200,7 @@
     margin-top: 3%;
     margin-left: 8%;
     margin-bottom: 15%;
-    font-size: 2.2em;
+    font-size: 1.8rem;
   }
 
   .websiteTitle img {
@@ -216,7 +216,7 @@
     margin-left: 10%;
     column-gap: 7%;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.28rem;
     margin-right: 2%;
   }
 
@@ -237,7 +237,7 @@
 
   .bodyHeading {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.35em;
   }
 
   .bodyTabContainer {
@@ -261,7 +261,7 @@
 
   .tabHeader {
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.35em;
     grid-column: 1 / 5;
   }
 
@@ -316,11 +316,11 @@
 
   .eventHeader {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1rem;
   }
 
   .eventDesc {
-    font-size: 1.1em;
+    font-size: 1.05rem;
     color: rgb(105, 103, 103);
   }
 
@@ -366,13 +366,13 @@
   }
 
   .taskDesc {
-    font-size: 1.2em;
+    font-size: 1.1rem;
     font-weight: bold;
     align-self: end;
   }
 
   .taskTime {
-    font-size: 1.05em;
+    font-size: 1.02rem;
     color: rgb(105, 103, 103);
   }
 
